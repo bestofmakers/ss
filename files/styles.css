@@ -1,0 +1,383 @@
+li.actives a {
+    color: #00959B;
+}
+.facebook-likebox span#u_0_2 {
+    color: #fff !important;
+}
+
+.single-blog-post img {
+    max-width: 828px;
+}
+
+label.audition_image {
+    padding-left: 17px;
+}
+.review-list {
+    padding: 0 0px 18px 0;
+}
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+/*contact us page*/
+.mainContact,
+.rattingWrapper{
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    padding: 45px 0;
+    border-bottom: 4px solid #cc8f42;
+}
+.widget-title{
+    font-size: 20px;
+    color: #c8a963;
+    text-transform: uppercase;
+}
+
+.contact-infos ul{
+    padding: 0;
+    list-style: none;
+    color: #fff;
+}
+
+
+
+
+/*subscribe section*/
+.subscribe {
+    background: url(../images/subscribe.jpg) no-repeat;
+    padding: 30px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+}
+.subscribe:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.subscribe .container {
+    position: relative;
+    z-index: 1;
+}
+.subscribe h3{
+    color: #f2d27d;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+}
+.subscribeInput {
+    text-align: center;
+}
+.subs_field{
+    background: none;
+    border-color: #dbae5d;
+    color: #dbae5d;
+    width: 80%;
+    border-radius: 0px;
+    float: left;
+
+}
+.subs_submit{
+    float: left;
+    margin: 0 !important;
+    height: 40px;
+}
+
+
+/*rating page*/
+.rateBox h1,
+.latestRate h2{
+    font-size: 23px;
+    color: #c8a963;
+    text-transform: uppercase;
+}
+.loginInfo{
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+}
+.loginInfo a{
+    color: #c8a963;
+    margin-left: 8px;
+}
+.rateBox .form-group{
+    margin-top: 20px;
+}
+.rateBox label{
+    color: #c8a963;
+    font-size: 18px;
+    font-weight: bold;
+}
+.rateBox input,
+.rateBox textarea{
+    background: none;
+    border-color: #dbae5d;
+    color: #dbae5d;
+    border-radius: 0;
+}
+.rateBox textarea{
+    height: 150px;
+}
+.ratingListing{
+    max-height: 450px;
+    overflow-x: hidden;
+    margin-top: 30px;
+}
+.latestRate .image-over p{
+    color: #fff;
+}
+.row.review-list.review-list-one {
+    border: medium none;
+    margin: 0;
+}
+
+/****CODE FROM JIVAN***************************************/
+.inner-hadding h2{
+    font-weight: bold;
+    margin: 100px 0px 0px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 0px;
+    text-align: center;
+    width: 100%;
+
+}
+h1.product-title{
+    font-size: 40px;
+}
+.pagetitle.inner h1{
+    font-size: 40px;
+    line-height: 88px;
+}
+.price{
+    font-size: 31px;
+}
+.allrooms ul {
+    padding-left: 0px;
+}
+.allrooms ul li {
+    display: block;
+    clear: both;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0px;
+    overflow: auto;
+}
+.allrooms ul li:last-child {
+    border-bottom: none;
+}
+.allrooms ul li .imgbox{
+    width : 300px;
+    height: auto;
+    float: left;
+}
+.allrooms ul li .room_descs {
+    float: left;
+    width: auto;
+    padding-left: 30px;
+    max-width: 640px;
+}
+
+.room-dec-wrapper h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.topInfo ul li{
+    margin-top: 6px;
+}
+
+
+.dark .modal-header{
+    background: #000;
+    border-bottom: 1px solid #dcc372;
+}
+
+.dark .modal-header button{
+    opacity: 1;
+    color: #c8a963;
+}
+
+.dark .modal-header h4{
+    text-align: center;
+    color: #c8a963;
+}
+
+
+.dark .modal-body{
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-bottom: 35px;
+}
+.dark .modal-body{
+    padding: 35px;
+}
+
+.dark .modal-body input{
+    background: none;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #dcc372;
+    color: #dcc372;
+}
+
+.dark .modal-footer{
+    text-align: center;
+    background: #000;
+    border-top: 1px solid #dcc372;
+}
+
+.dark .modal-footer button{
+    color: #333;
+    border-radius: 0;
+    background: #c5893d;
+    background: -webkit-linear-gradient(#c5893d, #f5d882, #c5893d);
+    background: -o-linear-gradient(#c5893d, #f5d882, #c5893d);
+    background: -moz-linear-gradient(#c5893d, #f5d882, #c5893d);
+    background: linear-gradient(#c5893d, #f5d882, #c5893d);
+    width: 36%;
+    height: 40px;
+    border: none;
+}
+.note{
+    font: normal 13px arial;
+    padding: 20px 0px;
+}
+
+.btnsubmit{
+    color: #333;
+    border-radius: 0;
+    background: #c5893d;
+    background: -webkit-linear-gradient(#c5893d, #f5d882, #c5893d);
+    background: -o-linear-gradient(#c5893d, #f5d882, #c5893d);
+    background: -moz-linear-gradient(#c5893d, #f5d882, #c5893d);
+    background: linear-gradient(#c5893d, #f5d882, #c5893d);
+    width: 36%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.additionalPackages input[type=checkbox]{
+    display:none;
+}
+.carousel-navigation h4{
+    text-transform: uppercase;
+    
+}
+.active .room-category-title{
+    background: #000;
+    color: #fff;
+}
+.room-category-title{
+    background: #c8a963;
+    padding: 15px;
+    font-weight: 600;
+}
+.hotelboxs{
+    padding: 40px 0px;
+}
+.hotelboxs h3{
+    color: #c5893d;
+    border-bottom: 1px solid #c5893d;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.hotelboxs p{
+    padding: 10px 0px 10px;
+}
+.btn-primary{
+    background: #c5893d;
+    color: #fff;
+    border: 1px solid #c19b76;
+}
+.btn-primary:hover{
+    background: #c19b76;
+}
+.msgs{
+    width: 50%;
+    float: left;
+    background: #ebcbb2;
+    height: 278px;
+    text-align: center;
+    padding-top: 60px;
+}
+.msgs h4{
+    text-align: center;
+    width: 100%;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+.msgs p{
+    color: #666;
+}
+.msgs.r{
+    float: right;
+}
+.spas em{
+    color: #c5893d;
+    font-size: 24px;
+}
+.spas p{
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+.spas p strong{
+    color: #c5893d;
+    text-decoration: underline;
+}
+.spabreak strong{
+    color: #c5893d;
+    text-decoration: underline;
+}
+.spabreak em{
+    color: #c5893d;
+}
+.spadv{
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 10px;
+}
+.spatype{
+    padding-top: 30px;
+}
+.spadv p{
+    color: #666
+}
+.spadv h2{
+    color: #c5893d;
+}
+.spadv ul li{
+    color: #666;
+    list-style: circle;
+}
+.spadv a{
+    color: #c5893d;
+    text-decoration: underline;
+}
+.spadesc{
+    background: rgba( 255, 255, 255, 0.8);
+    position: relative;
+    z-index: 9;
+    transition: all 1s;
+
+}
+.spadv:hover .spadesc{
+    transition: all 1s;
+    margin-top: -260px;
+}
